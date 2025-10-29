@@ -14,7 +14,7 @@ D = np.array([
     [6, 0, 3, 3, 4, 2, 3, 4, 5, 0]
 ], dtype=float)
 n = D.shape[0]
-P = 4
+P = 2
 
 x = cp.Variable((n, n), boolean=True)   # assignment vars
 y = cp.Variable(n, boolean=True)        # medoid open vars
